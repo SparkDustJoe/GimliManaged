@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GimliManaged", "GimliManaged\GimliManaged.csproj", "{9AFD338D-228F-44E7-A202-C27F403500DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GimliTester", "GimliTester\GimliTester.csproj", "{92931231-BBF4-43E1-BA80-443C433184E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AFD338D-228F-44E7-A202-C27F403500DD} = {9AFD338D-228F-44E7-A202-C27F403500DD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GimliManagedTests", "GimliManagedTests\GimliManagedTests.csproj", "{4894A3C3-A92E-4ADC-80A4-5A005D987191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{783D1905-0679-4A1E-AC6F-B82FC5CA7422}"
+	ProjectSection(SolutionItems) = preProject
+		gimli-20170627.pdf = gimli-20170627.pdf
+		gimli-spec-round2.pdf = gimli-spec-round2.pdf
+		LICENSE = LICENSE
+		LWC_AEAD_KAT_256_128.txt = LWC_AEAD_KAT_256_128.txt
+		LWC_HASH_KAT_256.txt = LWC_HASH_KAT_256.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|x64.Build.0 = Release|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{9AFD338D-228F-44E7-A202-C27F403500DD}.Release|x86.Build.0 = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|x64.Build.0 = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Debug|x86.Build.0 = Debug|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|x64.ActiveCfg = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|x64.Build.0 = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|x86.ActiveCfg = Release|Any CPU
+		{92931231-BBF4-43E1-BA80-443C433184E6}.Release|x86.Build.0 = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|x64.Build.0 = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Debug|x86.Build.0 = Debug|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|x64.ActiveCfg = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|x64.Build.0 = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|x86.ActiveCfg = Release|Any CPU
+		{4894A3C3-A92E-4ADC-80A4-5A005D987191}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE24D317-3FCC-4D6A-9475-D3318DE941C0}
+	EndGlobalSection
+EndGlobal
