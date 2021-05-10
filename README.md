@@ -1,5 +1,7 @@
-# GimliManaged
+# GimliManaged (DEPRECATED)
 A C# Port (.Net Core 3) of the Gimli lightweight AEAD/Hash crypto scheme.
+
+FOR EDUCATIONAL PURPOSES ONLY.  WEAKNESSES HAVE BEEN FOUND WITH GIMLI AND ITS FAMILY OF CIPHERS. DO NOT USE FOR PRODUCTION!
 
 NIST's Leightweight Cryptography Project: https://csrc.nist.gov/Projects/lightweight-cryptography/  
 Source: https://gimli.cr.yp.to/
